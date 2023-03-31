@@ -1,0 +1,30 @@
+{
+  "name": "minimal-discord-webhook-node",
+  "version": "0.0.1",
+  "description": "Discord webhook API, without sending file capability for FaaS needs",
+  "main": "./src/index.js",
+  "exports": {
+    "import": "./src/index.mjs",
+    "require": "./src/index.js"
+  },
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "mocha --timeout 50000"
+  },
+  "author": "Jonathan Nicholas",
+  "license": "MIT",
+  "keywords": [
+    "Webhook",
+    "Discord",
+    "Bot"
+  ],
+  "homepage": "https://github.com/Chromadream/minimal-discord-webhook-node#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "mocha": "^8.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
