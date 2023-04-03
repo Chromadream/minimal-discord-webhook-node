@@ -1,6 +1,6 @@
 {
   "name": "minimal-discord-webhook-node",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Discord webhook API, without sending file capability for FaaS needs",
   "main": "./src/index.js",
   "exports": {
