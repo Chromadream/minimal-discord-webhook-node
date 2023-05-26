@@ -6,8 +6,8 @@ export type WebhookOptions = {
 
 export class Webhook {
   constructor(options: string | WebhookOptions);
-  setUsername(username: string): void;
-  setAvatar(avatar: string): void;
+  setUsername(username: string): this;
+  setAvatar(avatar: string): this;
   send(message: MessageBuilder | string): Promise<void>;
 }
 
